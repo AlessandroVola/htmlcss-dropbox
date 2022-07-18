@@ -84,9 +84,8 @@ h1 {
 }
 
 /* plan */
-
 .plan {
-    height: 1000px;
+    height: 1200px;
     background-color: white;
 }
 
@@ -95,8 +94,26 @@ h2 {
     padding-bottom: 40px;
 }
 
-/* partner */
+.container2 {
+    flex-wrap: wrap;
+}
 
+.type {
+    width: calc(100% / 3 - 15px);
+    margin: 0 15px 0 0;
+    height: 700px;
+    border: 1px solid black;
+}
+
+.enterprise {
+    width: 98.5%;
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+
+/* partner */
 .partner {
     height: 400px;
 }
@@ -106,7 +123,30 @@ h2 {
 }
 
 /* operations */
-
 .operations {
-    height: 600px;
+    height: 1200px;
+}
+
+.card {
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px;
+}
+
+.container3 {
+    flex-wrap: wrap;
+}
+
+/* companies */
+.companies {
+    height: 300px;
+}
+
+/* square */
+
+
+/* footer */
+footer {
+    background-color: #000000;
+    height: 400px;
+    color: white;
 }
