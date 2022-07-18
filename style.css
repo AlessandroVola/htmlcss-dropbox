@@ -7,3 +7,106 @@
 body {
     font-family: sans-serif;
 }
+
+/* utilities */
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.center {
+    align-items: center;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.column {
+    flex-direction: column;
+}
+
+/* content */
+
+/* header */
+header {
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+}
+
+.nav>* {
+    padding: 0 10px;
+    margin: 0 5px;
+}
+
+.logo {
+    height: 20px;
+}
+
+.start {
+    height: 20px;
+}
+
+.margin {
+    width: 1000px;
+    margin: 0px auto;
+    padding-top: 100px;
+}
+
+.margin-close {
+    width: 850px;
+    margin: 0px auto;
+    padding-top: 150px;
+}
+
+
+/* main */
+
+/* presentation */
+.presentation {
+    background-color: #b4d0e7;
+    height: 600px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+
+.img-jumbo {
+    width: 700px;
+    justify-self: flex-end;
+}
+
+/* plan */
+
+.plan {
+    height: 1000px;
+    background-color: white;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+/* partner */
+
+.partner {
+    height: 400px;
+}
+
+.img-partner {
+    width: 450px;
+}
+
+/* operations */
+
+.operations {
+    height: 600px;
+}
