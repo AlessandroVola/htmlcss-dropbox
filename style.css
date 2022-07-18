@@ -25,8 +25,25 @@ body {
     overflow: auto;
 }
 
+.margin {
+    width: 1000px;
+    margin: 0px auto;
+    padding-top: 100px;
+}
+
+.margin-close {
+    width: 850px;
+    margin: 0px auto;
+    padding-top: 0px;
+}
+
 .column {
     flex-direction: column;
+}
+
+.blue {
+    background-color: #0161ff;
+    color: white;
 }
 
 /* content */
@@ -50,18 +67,6 @@ header {
 
 .start {
     height: 20px;
-}
-
-.margin {
-    width: 1000px;
-    margin: 0px auto;
-    padding-top: 100px;
-}
-
-.margin-close {
-    width: 850px;
-    margin: 0px auto;
-    padding-top: 150px;
 }
 
 
@@ -89,6 +94,10 @@ h1 {
     background-color: white;
 }
 
+.padding-top-fixed {
+    padding-top: 150px;
+}
+
 h2 {
     font-size: 30px;
     padding-bottom: 40px;
@@ -105,6 +114,10 @@ h2 {
     border: 1px solid black;
 }
 
+.margin-plan {
+    margin: 5px 10px;
+}
+
 .enterprise {
     width: 98.5%;
     height: 150px;
@@ -116,6 +129,7 @@ h2 {
 /* partner */
 .partner {
     height: 400px;
+    margin-bottom: 100px;
 }
 
 .img-partner {
@@ -141,12 +155,34 @@ h2 {
     height: 300px;
 }
 
-/* square */
+/* squares */
+.squares {
+    width: 100%;
+    height: 1000px;
+}
 
+/* faq */
+.faq {
+    height: 500px;
+}
+
+h3 {
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+
+.faq>div {
+    padding: 30px 0 30px 0;
+}
 
 /* footer */
 footer {
     background-color: #000000;
     height: 400px;
     color: white;
+}
+
+.small-hr {
+    width: 10%;
+    margin: 100px 0 30px;
 }
