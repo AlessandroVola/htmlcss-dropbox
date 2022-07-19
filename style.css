@@ -44,6 +44,17 @@ body {
 .blue {
     background-color: #0161ff;
     color: white;
+    border: none;
+    padding: 4px;
+    text-align: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+img {
+    width: 100%;
 }
 
 /* content */
@@ -57,12 +68,11 @@ header {
 }
 
 .nav>* {
-    padding: 0 10px;
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 .logo {
-    height: 20px;
+    width: 25%;
 }
 
 .start {
@@ -80,21 +90,27 @@ header {
 
 h1 {
     font-size: 70px;
+    padding-bottom: 40px;
+}
+
+.jumbo-text>* {
+    margin: 10px;
 }
 
 
 .img-jumbo {
     width: 700px;
     justify-self: flex-end;
+    position: relative;
 }
 
 /* plan */
 .plan {
-    height: 1200px;
+    height: 1300px;
     background-color: white;
 }
 
-.padding-top-fixed {
+.padding-top {
     padding-top: 150px;
 }
 
@@ -105,31 +121,63 @@ h2 {
 
 .container2 {
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 .type {
     width: calc(100% / 3 - 15px);
-    margin: 0 15px 0 0;
-    height: 700px;
+    padding: 0 15px;
+    height: 800px;
     border: 1px solid black;
 }
 
-.margin-plan {
-    margin: 5px 10px;
+.margin-plan div:first-child {
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+
+.margin-plan>* {
+    margin: 10px 10px;
 }
 
 .enterprise {
-    width: 98.5%;
+    width: 100%;
     height: 150px;
     border: 1px solid black;
     margin-top: 15px;
 }
 
+.enterprise>* {
+    padding: 10px 5px;
+}
+
+.contact {
+    width: 160px;
+    align-self: flex-end;
+}
+
+
+
 
 /* partner */
 .partner {
     height: 400px;
-    margin-bottom: 100px;
+    margin: 100px 0;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+
+.partner-text>* {
+    margin: 10px 50px 10px 50px;
+}
+
+.partner button {
+    width: 150px;
+    background-color: white;
+    padding: 10px;
 }
 
 .img-partner {
@@ -137,6 +185,10 @@ h2 {
 }
 
 /* operations */
+.container3 {
+    row-gap: 30px;
+}
+
 .operations {
     height: 1200px;
 }
@@ -144,6 +196,11 @@ h2 {
 .card {
     width: calc(100% / 3 - 20px);
     margin: 0 10px;
+}
+
+.card>* {
+    margin: 0 0 10px 0;
+
 }
 
 .container3 {
@@ -158,8 +215,35 @@ h2 {
 /* squares */
 .squares {
     width: 100%;
-    height: 1000px;
+    height: 500px;
+
 }
+
+.company-blocks>div {
+    width: calc(100% / 3);
+}
+
+.block-container {
+    height: 30vw;
+}
+
+.feedback-container {
+    width: calc(100% -60vw);
+}
+
+.square {
+    width: 15vw;
+    height: 15vw;
+    background-color: green;
+    justify-content: center;
+}
+
+.square img {
+    width: 80%;
+}
+
+
+
 
 /* faq */
 .faq {
