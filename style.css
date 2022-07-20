@@ -191,8 +191,9 @@ h2 {
     text-align: center;
 }
 
-
-
+.fa-check {
+    color: #0161ff;
+}
 
 
 
@@ -212,6 +213,10 @@ h2 {
     width: 150px;
     background-color: white;
     padding: 10px;
+}
+
+h4 {
+    padding-top: 30px;
 }
 
 .img-partner {
@@ -314,6 +319,19 @@ h2 {
     background-color: #ffd830;
 }
 
+.feedback-container>* {
+    margin: 25px 20px;
+}
+
+.feedback-container img {
+    width: 50%;
+}
+
+.feedback-container-text>* {
+    font-weight: 200;
+    font-size: 0.9rem;
+    padding: 40px 0;
+}
 
 .free-trial {
     background-color: #b4d0e7;
