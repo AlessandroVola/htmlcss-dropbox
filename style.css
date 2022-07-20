@@ -53,6 +53,10 @@ body {
     text-align: center;
 }
 
+.blue:hover {
+    opacity: 0.8;
+}
+
 
 .wrap {
     flex-wrap: wrap;
@@ -84,6 +88,21 @@ header {
 .start {
     height: 20px;
 }
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+li :hover {
+    border-bottom: 1px solid black;
+}
+
 
 
 /* main */
