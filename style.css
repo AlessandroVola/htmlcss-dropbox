@@ -49,7 +49,7 @@ body {
     background-color: #0161ff;
     color: white;
     border: none;
-    padding: 4px;
+    padding: 6px;
     text-align: center;
 }
 
@@ -116,17 +116,26 @@ li :hover {
 h1 {
     font-size: 70px;
     padding-bottom: 40px;
+    font-weight: 800;
 }
 
 .jumbo-text>* {
-    margin: 10px;
+    margin: 0 10px 20px 0;
 }
 
+.jumbo-text p {
+    font-weight: 200;
+    font-size: 0.9rem;
+}
 
 .img-jumbo {
     width: 700px;
     justify-self: flex-end;
     position: relative;
+}
+
+.fa-arrow-down {
+    padding-top: 45px;
 }
 
 /* plan */
@@ -151,8 +160,7 @@ h2 {
 
 .type {
     width: calc(100% / 3 - 15px);
-    padding: 0 15px;
-    height: 800px;
+    height: 900px;
     border: 1px solid black;
 }
 
@@ -163,26 +171,27 @@ h2 {
     text-align: center;
 }
 
-
 .margin-plan>* {
-    margin: 10px 10px;
+    margin: 15px 20px;
 }
 
 .enterprise {
     width: 100%;
-    height: 150px;
+    height: 220px;
     border: 1px solid black;
     margin-top: 15px;
 }
 
-.enterprise>* {
-    padding: 10px 5px;
+.enterprise-text>* {
+    padding: 15px 20px;
 }
 
-.contact {
-    width: 160px;
-    align-self: flex-end;
+.enterprise>div:first-child {
+    border-bottom: 1px solid black;
+    text-align: center;
 }
+
+
 
 
 
@@ -190,7 +199,7 @@ h2 {
 /* partner */
 .partner {
     height: 400px;
-    margin: 100px 0;
+    margin: 200px 0;
     font-size: 1.1rem;
     font-weight: 200;
 }
@@ -261,8 +270,12 @@ h2 {
 }
 
 .square img {
-    width: 80%;
+    width: 60%;
     filter: invert(1);
+}
+
+.square:hover {
+    border: 5px solid white;
 }
 
 
@@ -276,6 +289,10 @@ h2 {
 
 .ufl {
     background-color: #b4d0e7;
+}
+
+.ufl img {
+    height: 40%;
 }
 
 .topps {
